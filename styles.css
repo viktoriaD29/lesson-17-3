@@ -8,20 +8,19 @@
   margin: 16px;
 }
 
-.chess-board th {
+.chess-board td {
+  /*border: 1px solid black;*/
   width: 50px; 
   height: 50px;
-}
-
-.chess-board td {
-  border: 1px solid black;
-  width: 50px; height: 50px;
+  text-align: center;
 }
 
 .chess-board .light {
+  border: 1px solid black;
   background: white;
 }
 
 .chess-board .dark {
+  border: 1px solid black;
   background: #000;
 }
